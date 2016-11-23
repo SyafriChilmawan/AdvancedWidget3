@@ -3,6 +3,10 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 23
     buildToolsVersion "23.0.3"
+
+    dataBinding{
+        enabled = true
+    }
     defaultConfig {
         applicationId "id.sch.smktelkom_mlg.learn.advancedwidget3"
         minSdkVersion 15
